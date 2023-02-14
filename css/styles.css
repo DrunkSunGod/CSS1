@@ -1,0 +1,120 @@
+body{
+   margin : 0;
+    font-family: 'Merriweather', serif;
+    text-align: center ;
+}
+.header{
+    background-color : #EEE9DA;
+    margin : 0 ;
+    position : relative ;
+    color : #6096B4 ;
+}
+.top-cloud{
+    position : absolute ;
+    right : 350px ;
+    top : 50px ;
+}
+.bottom-cloud{
+    position : absolute ;
+}
+.name{
+    font-size : 5.625em ;
+    /* 100% = 1em = 1rem = 16px  */
+    font-family: 'Sacramento', cursive;
+    padding-top : 100px ;
+    margin : 0 ;
+    line-height : 2 ;
+}
+h2{
+    font-family : montserrat;
+    font-weight: normal;
+    color : #6096B4 ;
+    font-size : 2.75em;
+}
+h3{
+    color : #93BFCF ;
+}
+.footer-link{
+    color : #BDCDD6 ;
+}
+.skill-row{
+    width : 50% ;
+    margin: 0 auto ;
+    line-height: 2;
+    margin : 50px auto 100px auto ;
+}
+.dsa-image{
+    width : 15% ;
+    float: left ;
+    margin : 20px ;
+}
+.webdev-image{
+    width : 15% ;
+    float : right ;
+    margin : 20px ;
+}
+.profile{
+    width : 25% ;
+    line-height: 2 ;
+    margin : 100px auto 50px auto ;
+}
+.section-break{
+    border : none ;
+    border-top : 0.35em dotted #EEE9DA ;
+    height: 0;
+    width : 5% ;
+
+}
+.pp{
+    margin-bottom : 30px ;
+}
+.contact-me{
+    line-height : 2 ;
+    width : 25% ;
+    margin : 0 auto 50px auto ;
+}
+.btn {
+    -webkit-border-radius: 8;
+    -moz-border-radius: 8;
+    border-radius: 8px;
+    color: #ffffff;
+    font-size: 20px;
+    background: #6096B4;
+    padding: 10px 20px 10px 20px;
+    text-decoration: none;
+    margin : 100px auto ;
+  }
+  
+  .btn:hover {
+    background: #BDCDD6;
+    text-decoration: none;
+  }
+  .bottom-container{
+    background-color : #93BFCF ;
+    padding-top : 40px ;
+    padding-bottom : 0 ;
+    
+  }
+  .copyright{
+    padding : 30px ;
+    margin-bottom : 0 ;
+  }
+  .footer-link{
+    margin : 100px ;
+  }
+  .footer-link:hover{
+    color : black ;
+  }
+/* CSS has 4 display properties : Block( takes up the full width of the screen and blocks anything else ); Inline( Takesup only as much 
+space as required. eg: span ). We cannot change the width of inline elements. ; Inline-block(can Behave as bothe
+block and inline. can change width + sit on the same line.);none ( removes the element from the flow of the website.). */
+/* Images are Inline-block elements. */
+
+
+/* POSITION : 
+Default position( static position ) is the position that comes with the html code. It is governed by 3 laws : 
+1) Content determines a lot of things. eg: height of blocks, width of spans, etc . 
+2) Children Sit on top of parents . <div><h1></h1></div> ( here the h1 is more towards the user and away from the screen.( z-index) ).
+3)Order comes from code .
+Relative Positioning Helps us position it relative to the static positioning . Does not effect the flow.
+Absolute Positioning positions it relative to the parent . Affects the flow . */
